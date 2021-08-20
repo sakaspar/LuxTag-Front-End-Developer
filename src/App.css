@@ -25,13 +25,6 @@ border-radius: 0px;
   margin-top: 10%;
 }
 
-.Right__Part__Image{
-margin-right: 881px;
-margin-top: 130px;
-margin-bottom: 137px;
-margin-left: 881px;
-}
-
 .Left__Part__Title__Title{
 display: flex;
 align-items: center;
@@ -81,31 +74,6 @@ margin-bottom: 278px;
 margin-left: 216px;
 margin-right: 1093px;
 }
-.Right__Part{
-height: 630px;
-width: 324px;
-left: -14px;
-top: -36px;
-border-radius: 0px;
-margin-top: 135px;
-margin-right: 250px;
-margin-left: 139px;
-margin-bottom: 144px;
-}
-
-.containerIphone{
-    display: flex;
-    position: relative;
-    text-align: center;
-    background-color: #D6ECF8;
-    border-radius: 50px;
-    justify-content: center;
-    align-items: center;
-    height: 590px;
-    width: 300px;
-    left: 120px;
-    top: 1px;
-}
 
 .top-left {
   position: absolute;
@@ -120,19 +88,13 @@ left: 217px;
 top: 371px;
 border-radius: 0px;
 }
-.Summary{
-  position: absolute;
-  height: 47.17672348022461px;
-  width: 545.3577270507812px;
-  border-radius: 0px;
- 
-  margin-top: 307px;
-  margin-bottom: 357px;
-  margin-right: 678.64px;
-  margin-left:216px ;
+
+.Summery1{
+  position: relative;
   background: #EFEFEF;
   border: 3px solid #EFEFEF;
-  box-sizing: border-box;  
+  box-sizing: border-box;
+ 
 }
 
 .textarea{
@@ -146,39 +108,23 @@ border-radius: 27px;
 
   background: #ffffff;
 }
-.Header{
-height: 15.60552978515625px;
-width: 250.32113647460938px;
-left: 105.13821411132812px;
-top: 74px;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: 16px;
-letter-spacing: 0px;
-text-align: center;
-margin-top: 20px;
-margin-left: 10px;
-border-radius: nullpx;
-}
+
 .slidebartext{
+  position: absolute;
 height: 47.17672348022461px;
 width: 545.3577270507812px;
 left: 0px;
 top: 0px;
 border-radius: 0px;
-font-family: Poppins;
-font-size: 22px;
-font-style: normal;
-font-weight: 600px;
-line-height: 54px;
-letter-spacing: 0px;
-text-align: left;
-background: #EFEFEF;
-border: 3px solid #EFEFEF;
-box-sizing: border-box;
 
+  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  background: #EFEFEF;
+  border: 3px solid #EFEFEF;
+  box-sizing: border-box;
 }
 
 .Left__Part_main{
@@ -186,4 +132,54 @@ box-sizing: border-box;
   margin-right: 658px;
   margin-left:216px;
   margin-bottom: 278px;
+}
+
+.Right__Part__Image{
+  margin-right: 881px;
+  margin-top: 130px;
+  margin-bottom: 137px;
+  margin-left: 881px;
+}
+
+.Right__Part{
+    height: 630px;
+    width: 324px;
+    left: -14px;
+    top: -36px;
+    border-radius: 0px;
+    margin-top: 135px;
+    margin-right: 250px;
+    margin-left: 139px;
+    margin-bottom: 144px;
+}
+
+.Header{
+      height: 15.60552978515625px;
+      width: 250.32113647460938px;
+      left: 105.13821411132812px;
+      top: 74px;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 0px;
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 10px;
+      border-radius: nullpx;
+}
+
+.containerIphone{
+        display: flex;
+        position: relative;
+        text-align: center;
+        background-color: #D6ECF8;
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        height: 590px;
+        width: 300px;
+        left: 120px;
+        top: 1px;
 }
